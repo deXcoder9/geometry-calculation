@@ -20,12 +20,12 @@
     </style>
   </head>
   <body>
-      <div class="vessel  gap-7 my-9 justify-between flex flex-col lg:flex-row  ">
+      <div class="vessel  gap-7 my-9 justify-between flex flex-col-reverse lg:flex-row  ">
        <div class="shapeofgeometry grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-1 w-full ">
 
 
          <!-- Triangle -->
-         <div id="triangle" onmouseover="MoucseOverOfTriangle()" onmouseout="MouseOutOfTriangle()" class="card w-96 bg-base-100 shadow-xl">
+         <div id="triangle" onmouseover="MoucseOverOfTriangle()" onmouseout="MouseOutOfTriangle()" class="card w-full max-w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src="images/triangle.png" alt="triangle" class="rounded-xl" />
           </figure>
@@ -69,7 +69,7 @@
 
 
         <!-- Parallelogram -->
-      <div  onmouseover="MoucseOverOfparallelogram()" onmouseout="MouseOutOfParallelogram()" id="parallelogram"class="card w-96 bg-base-100 shadow-xl">
+      <div  onmouseover="MoucseOverOfparallelogram()" onmouseout="MouseOutOfParallelogram()" id="parallelogram"class="card w-full max-w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src="images/parallelogram.png" alt="triangle" class="rounded-xl" />
           </figure>
@@ -92,7 +92,7 @@
 
 
       <!-- Rhombus -->
-      <div onmouseover="MoucseOverOfrhombus()" onmouseout="MouseOutOfrhombus()" id="rhombus" class="card w-96 bg-base-100 shadow-xl mt-5">
+      <div onmouseover="MoucseOverOfrhombus()" onmouseout="MouseOutOfrhombus()" id="rhombus" class="card w-full max-w-96 bg-base-100 shadow-xl mt-5">
           <figure class="px-10 pt-10">
             <img src="images/rhombus.png" alt="Rhombus" class="rounded-xl" />
           </figure>
@@ -116,7 +116,7 @@
 
 
       <!-- Pentagon -->
-      <div onmouseover="MoucseOverOfpentagon()" onmouseout="MouseOutOfpentagon()" id="pentagon" class="card w-96 bg-base-100 shadow-xl mt-5">
+      <div onmouseover="MoucseOverOfpentagon()" onmouseout="MouseOutOfpentagon()" id="pentagon" class="card w-full max-w-96 bg-base-100 shadow-xl mt-5">
           <figure class="px-10 pt-10">
             <img src="images/pentagon.png" alt="Pentagon" class="rounded-xl" />
           </figure>
@@ -138,7 +138,7 @@
 
 
       <!-- Ellipse -->
-      <div onmouseover="MoucseOverOfellipse()" onmouseout="MouseOutOfellipse()" id="ellipse" class="card w-96 bg-base-100 shadow-xl mt-5">
+      <div onmouseover="MoucseOverOfellipse()" onmouseout="MouseOutOfellipse()" id="ellipse" class="card w-full max-w-96 bg-base-100 shadow-xl mt-5">
           <figure class="px-10 pt-10">
             <img src="images/ellipse.png" alt="Pentagon" class="rounded-xl" />
           </figure>
@@ -162,7 +162,7 @@
        </div>
 
 
-       <div class="areaCalculation w-[350px] max-h-[700px] border-4 border-gray-400 ">
+       <div class="areaCalculation h-[300px] w-[350px] max-h-[700px] border-4 border-gray-400 ">
         <h1 class=" text-center text-2xl underline pt-4 font-bold">Area Calculation</h1>
         <div id="contentOfCalculation" class="content w-[85%] mx-auto my-7 font-semibold">
          
